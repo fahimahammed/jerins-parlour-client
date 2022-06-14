@@ -17,6 +17,10 @@ const Services = () => {
                     serviceData && serviceData.map(singleService => <ServiceCard key={singleService._id} singleService={singleService}></ServiceCard>)
                 }
             </div>
+
+            <div className='text-center my-10'>
+                <button className='btn btn-primary'>Explore more</button>
+            </div>
         </div>
     );
 };
