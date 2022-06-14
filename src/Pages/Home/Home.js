@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
 import Header from './Header/Header';
+import Overview from './Overview/Overview';
 import Services from './Services/Services';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar/>
             <Header/>
             <Services/>
+            <Overview/>
         </div>
     );
 };
